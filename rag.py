@@ -9,7 +9,7 @@ from llama_index.core import SimpleDirectoryReader
 from transformers import AutoTokenizer, AutoModel, AutoModelForSeq2SeqLM
 
 
-documents = SimpleDirectoryReader("C:\\Codes\\Langchain\\see").load_data()
+documents = SimpleDirectoryReader("C:\\Codes\\Langchain\\see").load_data() # replace with your directory 
 
 texts = [doc.text for doc in documents]
 
